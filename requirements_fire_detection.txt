@@ -1,0 +1,27 @@
+# Fire Detection (YOLOv5) — Python Dependencies
+# Install YOLOv5 deps first:
+#   git clone https://github.com/ultralytics/yolov5
+#   pip install -r yolov5/requirements.txt
+#
+# Then install these additional packages:
+# pip install -r requirements.txt
+
+# Ultralytics API (for real-time webcam inference script)
+ultralytics>=8.0.0
+
+# Computer Vision
+opencv-python>=4.8.0
+
+# Deep Learning (YOLOv5 uses PyTorch)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data handling & visualization
+numpy>=1.24.0
+matplotlib>=3.7.0
+
+# Image processing
+Pillow>=9.0.0
+
+# YAML config parsing
+PyYAML>=6.0
